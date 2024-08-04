@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Class same but id diffrent (here are both are in same class "group1", but id are diffrent)-->
+    <div id ="id1" class = "group1"></div>
+    <div id ="id2" class = "group1"></div>
+
+</head>
+<body>
+    <main>
+         <!--<table><!-- Create table commands-
+            <caption>Student Data </caption>
+            <tr><!-- tr , means table row
+                <!-- <th colspan="5">
+                    INFORMATION
+                </th> ( if here you want all column and add INFORMATIO  the use this tag)
+                <th>name</th><!--th , means table head
+                <th>Rollno</th>
+                <th>Branch</th>
+                <th>Email</th>
+                <th>Domain</th>
+            </tr>
+
+        <tr>
+            <td>Raj Kapoor</td><!--td , means table data-
+            <td>042</td>
+            <td>B.tech (cse)</td>
+            <td>raj@gmail.com</td>
+            <td> st</td>
+        </tr> 
+        </table> <br><br><br><br>-->
+
+<!--FORM TAG-->
+        <h4>Student Registration form </h4>
+        <form action="action.php"><!--action in form-->
+            <input type="text" placeholder="username"><br><br>
+            <input type="password" placeholder="password"><br>
+<!-- LABEL IN HTML-->
+        <h5>Choose your class </h5>
+            <label for="10">
+            <input type="radio" value="class X" name="class" id="10">class X
+        </label>
+        <br>
+
+            <label for="11">
+                <input type="radio" value="class XI" name="class" id="11">class XI
+            </label>
+
+        <!-- CHECKBOX  in HTML -->
+        <h5>Choose your favrouit subject </h5>
+            <label for="math">
+                <input type="checkbox" value="math" name="class" id="11">math
+            </label><br>
+            <label for="cse">
+                <input type="checkbox" value="cse" name="class" id="11">cse
+            </label><br>
+            <label for="phy">
+                <input type="checkbox" value="phy" name="class" id="11">phy
+            </label>
+
+            <br>
+            <h5>Select Your city</h5>
+            <select name="city" id="city">
+                <option value="Bihar"> Bihar </option>
+                <option value="Delhi"> Delhi </option>
+                <option value="Mumbai"> Mumbai </option>
+                <option value="Odisha"> Odisha </option>
+            </select>
+            <br><br>
+            <!--Textarea in html -->
+            <textarea name="feedback" id="101" placeholder="your feedback">feedback
+            </textarea>
+            <br>
+            <input type="Submit"value="submit">
+            <br>
+            <!-- iframe tag-->
+             <h5>My fav Youtube channel</h5>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=yRHcIOURT-Kskkiq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>youtube</iframe>
+
+        <br>
+            <iframe width="560" height="315" src="https://hi.wikipedia.org/wiki/%E0%A4%AE%E0%A5%81%E0%A4%96%E0%A4%AA%E0%A5%83%E0%A4%B7%E0%A5%8D%E0%A4%A0">Wikipedia</iframe>
+
+            <!-- Video tag-->
+            <!-- <video src="myVid.mp4"> My Video </video> (This is a video tag but i have large data video so don't run here so i will put it after)-->
+
+        </form>
+
+    </main>
+</body>
+</html>
