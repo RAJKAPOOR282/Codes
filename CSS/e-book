@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Criminal Laws 2023</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ebook-container">
+        <div class="header">
+            <img src="https://static.mygov.in/static/s3fs-public/ebook/New-Criminal-Laws-2023/mobile-ext/appLogoIcon.png" alt="App Logo">
+            <div class="search-bar">
+                <input type="search" id="search-input" placeholder="Search...">
+                <button id="search-btn">Search</button>
+            </div>
+        </div>
+        <div class="ebook-content">
+            <div class="page" id="page-1">
+                <img src="https://static.mygov.in/static/s3fs-public/ebook/New-Criminal-Laws-2023/files/mobile/1.jpg" alt="Page 1">
+            </div>
+            <div class="page" id="page-2">
+                <img src="https://static.mygov.in/static/s3fs-public/ebook/New-Criminal-L

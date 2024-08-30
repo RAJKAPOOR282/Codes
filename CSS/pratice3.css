@@ -1,0 +1,35 @@
+/*1 to 9th line for question 1.
+div{
+    height: 100px;
+    width:100px;
+    background-color: green;
+    border-radius: 50%;
+
+
+}  */
+ /* for question 2 */
+*{
+    padding:0px;
+    margin:0px;
+    color:white;
+    
+}
+#navbar{
+    height: 60px;
+    /* width:1130px; */
+    border: 5px;
+    border-color:white;
+    background-color:#0f1111;
+}
+#logo{
+    color:#f08804;
+    font-size: 25px;
+ 
+}
+button{
+    background-color:#f08804
+}
+a{
+    margin: 200px;
+    text-decoration: none;
+}
