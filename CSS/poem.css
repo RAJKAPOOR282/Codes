@@ -1,16 +1,18 @@
 *{
     background-color: wheat;
     text-align: center;
-    font-family: Georgia;
+    
 }
 
 p{
     color: #964B00;
     line-height: 30px;
+    
 }
 h1{
     color: red;
     text-decoration: underline;
+    font-family: Georgia;
 }
 h3{
     color: black;
@@ -24,6 +26,9 @@ button{
     color: blueviolet;
 }
 
-::placeholder{
-    color: #000000;
-}
+textarea {
+    color: black;
+    }
+span {
+    text-decoration: underline;
+    }
