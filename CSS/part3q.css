@@ -1,0 +1,53 @@
+/* Qs1. Create a box using div. Set
+- Its height to 150px, width to 300px and the background color to grey.
+- Border to a 5px, black, dotted border.
+- A top margin of 20px.
+- A right margin of 1em.
+- A bottom margin of 40px.
+- A left margin of 2em.
+- Padding on all sides of 1em. */
+
+div{
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    border: 5px dotted black;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em;
+
+}
+/* Qs2. Create 3 divs with the following properties
+- Height & Width of 100px
+- Background color to pink
+- Border to 2px solid black
+- Make this div in the shape of circle
+- Place all the 3 divs in a single line */
+.Q2{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+ 
+
+
+/* Qs3. Create a list of technologies - HTML, CSS, JavaScript, NodeJS, ReactJS, SQL,
+MongoDB, Java, C++, C & Python.
+Now change the display of all list items to inline to move them all in a single line.
+Did you notice something different? Try to find why the bullet points disappear */
+
+li{
+    display: inline ;
+   /* The bullet points disappear because when we set the display property to inline, the list items are no longer displayed as block-level elements. This means they don't have their own line, and the bullet points are not shown. Instead, they are displayed inline, one after the other, without any line breaks or bullet points.
+
+Here's a breakdown of what's happening:
+
+When display is set to block (which is the default for list items), each list item is a block-level element, which means it takes up its own line and has a bullet point.
+When display is set to inline, each list item becomes an inline element, which means it doesn't take up its own line and doesn't have a bullet point.
+Since the list items are now inline, they are displayed one after the other, without any line breaks or bullet points. */
+}
