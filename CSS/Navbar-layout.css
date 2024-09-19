@@ -1,0 +1,22 @@
+#container{
+    height: 50px;
+    width: 900px;
+    background-color: palevioletred;
+    border: 3px solid skyblue;
+    border-radius: 10px;
+    display: flex;
+justify-content: flex-start;
+align-content: center;
+}
+
+#container div{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    /* border-radius: 10px; */
+margin-left: 5px;
+line-height: 50px;
+
+    
+
+}
