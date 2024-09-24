@@ -1,0 +1,25 @@
+div{
+    height: 600px;
+    width: 1000px;
+    background-color: grey;
+    margin: 10px auto;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    /* transition: 1s;
+    margin-top: 10px; */
+    /* transition:margin-top 2s ease-in-out 0.2s; */
+    /* transform: rotate(45deg); */
+}
+/* div:hover{
+    /* margin-top: 10px; */
+    /* background-color: green; */
+    /* transform: rotate(45deg); */
+    /* border-radius: 50%; */
+    /* transition:margin-top 2s ease-in-out 0.2s; */
+/* 
+    transform: scale(1.5);
+    box-shadow: 2px 4px 10px black; 
+} */
