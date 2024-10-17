@@ -1,19 +1,39 @@
 #gallary{
     
-    display: flex;
-    justify-content: space-evenly;
+    display:flex;
+    height: 800px;
+    width: 1000px;
+    border: 2px solid black;
+    /* display: inline-flex; */
+    /* background: linear-gradient(blue, pink); */
+     /* background: linear-gradient(
+    to left,
+    lime 20%,
+    red 30%,
+    red 45%,
+    cyan 55%,
+    cyan 70%,
+    yellow 80%
+  ); */
+  background: linear-gradient(to top, lime, cyan);
+    
+    /* justify-items: stretch;
+    align-items: stretch; */
+    
 
 }
 
 
 
  .photo{
-    width: 400px;
-    /* height: 500px; */
+    width: 200px;
+    height: 300px;
     border: 2px solid black;
     border-radius: 25px;
     padding: 10px;
     margin: 10px;
+    justify-items: stretch;
+    
  }
 img{
     width: 100%;
@@ -28,4 +48,14 @@ h1{
     font-size: 45px;
 
 }
+
+.photo:hover{
+    scale: 2.0px;
+    box-shadow: 2px 2px 8px yellow;
+
+}
+*{
+    align-items: center;
+}
+
 

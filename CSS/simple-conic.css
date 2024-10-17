@@ -1,0 +1,114 @@
+#main{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+
+    border: 2px solid green;
+}
+
+#container{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+
+}
+#container .item{
+    width: 100px;
+    height: 100px;
+    margin:10px;
+    background-color: red;
+    /* border: 1px solid black; */
+    /* background-image: url(raj.jpg); */
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+}
+
+#container1{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+
+}
+#container1 .item1{
+    width: 100px;
+    height: 100px;
+    margin:10px;
+    /* background-color: green; */
+    /* border: 1px solid black;
+    background-image: url(raj.jpg); */
+    background-color: green;
+    /* background: -webkit-linear-gradient(rgb(255, 123, 0), white, rgb(5, 236, 5)); */
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+}
+
+#container2{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+
+}
+#container2 .item2{
+    width: 100px;
+    height: 100px;
+    margin:10px;
+    background-color: blue;
+    /* border: 1px solid black; */
+    /* background-image: url(raj.jpg); */
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+}
+
+#container3{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+
+}
+#container3 .item3{
+    width: 100px;
+    height: 100px;
+    margin:10px;
+    background-color: yellow;
+    /* border: 1px solid black; */
+    /* background-image: url(raj.jpg); */
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+}
+
+
